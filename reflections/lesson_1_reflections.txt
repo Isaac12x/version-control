@@ -1,0 +1,63 @@
+Having version control is like having undo button for your project. 
+
+GIT + github
+
+Diff builtin tool to find diferences in a file
+ diff –u file1 file2 
+
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+It can help me compare different files without having to do manually. Easy to do manually when code is 1-2 pages long, do it with 24 pages long or more. 
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Because you can see how you program when you take your first steps, and see how you had been evolving. Making possible to track where and how you upgrade.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Pros of do whenever you want gives you liberty to make it as you want It to be. Cons you are error prone because you are human.
+G. Docs pros are that its done automatically but it can not reflect all changes, only a small amount.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+How can you use the commands git log and git diff to view the history of files?
+
+first clone a repository then get in this repository and with git log see the changes. Whatever the one that interests you pick its id and the afterone id and put git diff first second to see the changes.
+
+Git is orientated to make savings to files which are highly related whereas the other one's files don't have to be related in any case.
+
+How might using version control make you more confident to make changes that could break something?
+
+Makes me more confident because i can revert to the commit that hasn't the error and copy the code in the actual file. I can take more risks, exploring differences without being affraid. I can make big changes when its working, exploring large spaces of things to try.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+To set up a system that clones automatically my code for me.  
+
+What happens when you initialize a repository? Why do you need to do it?
+
+When you initialize a repository git creates a .git folder for star tracking this repository. You need to do it to tell git that you want to track that repository since git is a version control system depending on user interaction.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The stagging are is different from the working directory because it keeps track of every file you are going to deploy via git. It adds the value of potentially check which files you are going to deploy in any moment till deployment.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+Via git add the file you had make changes to just when you close. So make change to file - run command git add file - keep working. Check via git status.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+When trying new experimental ways of the same file, a test a/b, versions of a, versions of b, try new features. Keeping in different branches organize your history and makes your working files save. When doing something different. Correcting a bug. MAster as production and development branch, experimental, unique features but they aren't in production ready.
+
+How do the diagrams help you visualize the branch structure?
+
+Diagrams make clearer how branches work, in which branch we are on production and in which we are in development. The best thing is that diagrams do what we could costs 2 -5 sentences for action in a single look-up.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result of merging is that we preserve the parents commits of every branch in the actual repository. Making changes two different people had made sepparately available to the production file. We do represent in this way because it refers to branches.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging is wonderful but maybe you want to keep some things git won't keep. Doing manually requires more time but you get the final output that you want 100% of the times. 
